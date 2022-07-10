@@ -14,21 +14,6 @@
     <script src="./js/script.js"></script>
     <script src="typed.js"></script>
     <script src="./js/typed.js"></script>
-    <script>
-         var typed = new Typed(".element", {
-  strings: [ 
-    "Designer",
-    "Developer",
-    "coder"],
-    smartBackspace: true,
-	 loop: true,
-    loopCount: Infinity,
-	  backSpeed: 100,
-	  typeSpeed: 200,
-	  
-});
-
-    </script>
     <section class="header">
         <div class="vd">
             <video autoplay loop muted >
@@ -48,12 +33,24 @@
         </nav>
         <div class="content">
             <div class="text-1">Hello, my name is </div>
-            <div class="text-2">Nguyễn Vỹ</div>
-            <div class="text-3">And i'm a 
-                <span class=".element"></span>
-		</div>
+            <div class="text-2">Nguyễn Vỹ </div>
+            <div class="text-3">And i'm a <span class="type"></span> </div>
     </section>
+<script>
+         var typed = new Typed(".type", {
+  strings: [ 
+    "Designer",
+    "Developer",
+    "coder"],
+    smartBackspace: true,
+	 loop: true,
+    loopCount: Infinity,
+	  backSpeed: 100,
+	  typeSpeed: 200,
+	  
+});
 
+    </script>
 
 <!--About me-->
     <section class="about">
@@ -249,11 +246,11 @@
                 </div>
         </div>
 </section>
+
 <div class="buttonup">
     <a href="#">
         <img src="./img/Asset 7@2ggF.png">
     </a>
 </div>
-
 </body>
 </html>
